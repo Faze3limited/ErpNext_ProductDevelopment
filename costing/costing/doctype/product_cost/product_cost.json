@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-28 21:08:31.762520",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product_name",
+  "fabric_cost",
+  "stitch_cost",
+  "made_up_cost",
+  "peices",
+  "total_cost"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "product_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Product Name",
+   "options": "Item"
+  },
+  {
+   "columns": 2,
+   "fieldname": "total_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Cost"
+  },
+  {
+   "columns": 2,
+   "fieldname": "fabric_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fabric Cost"
+  },
+  {
+   "columns": 1,
+   "fieldname": "stitch_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Stitch Cost"
+  },
+  {
+   "columns": 2,
+   "fieldname": "made_up_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Made Up Cost"
+  },
+  {
+   "columns": 1,
+   "fieldname": "peices",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Peices"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-30 23:01:55.920809",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Product Cost",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

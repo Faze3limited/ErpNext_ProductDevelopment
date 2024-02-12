@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-28 12:27:45.273080",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "width",
+  "gsm",
+  "per_kg_price",
+  "lm_price",
+  "processing_cost_if_any",
+  "total_cost"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Name",
+   "options": "Item"
+  },
+  {
+   "columns": 1,
+   "fieldname": "width",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Width"
+  },
+  {
+   "columns": 1,
+   "fieldname": "gsm",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "GSM"
+  },
+  {
+   "columns": 1,
+   "fieldname": "per_kg_price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Per Kg Price"
+  },
+  {
+   "columns": 1,
+   "fieldname": "lm_price",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "LM Price"
+  },
+  {
+   "columns": 2,
+   "fieldname": "processing_cost_if_any",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Processing Cost If Any"
+  },
+  {
+   "columns": 2,
+   "fieldname": "total_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Cost"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-28 13:00:41.458306",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Backing Other Fabric Cost",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

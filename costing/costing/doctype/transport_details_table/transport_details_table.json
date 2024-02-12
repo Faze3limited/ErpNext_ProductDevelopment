@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-24 12:03:18.565891",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product_name",
+  "width",
+  "length",
+  "height",
+  "no_of_piecescarton",
+  "container",
+  "costcbm",
+  "net_amount"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "product_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Product Name",
+   "options": "Item"
+  },
+  {
+   "columns": 1,
+   "fieldname": "width",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Width"
+  },
+  {
+   "columns": 1,
+   "fieldname": "length",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Length"
+  },
+  {
+   "columns": 1,
+   "fieldname": "height",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Height"
+  },
+  {
+   "fieldname": "no_of_piecescarton",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "No. of pieces/carton"
+  },
+  {
+   "columns": 1,
+   "fieldname": "container",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Container",
+   "options": "Container"
+  },
+  {
+   "fetch_from": "container.amount",
+   "fieldname": "costcbm",
+   "fieldtype": "Currency",
+   "label": "costcbm"
+  },
+  {
+   "columns": 2,
+   "fieldname": "net_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Net Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-08-24 12:11:36.063498",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Transport Details Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

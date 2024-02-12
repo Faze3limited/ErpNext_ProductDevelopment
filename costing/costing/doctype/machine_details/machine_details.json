@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-04 13:15:41.432480",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "size_in",
+  "on_machine_size",
+  "on_table_size",
+  "finished_size"
+ ],
+ "fields": [
+  {
+   "fieldname": "size_in",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Size In",
+   "options": "\nWidth (In Inches)\nLength (In Inches)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "on_machine_size",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "On Machine Size"
+  },
+  {
+   "fieldname": "on_table_size",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "On Table Size"
+  },
+  {
+   "fieldname": "finished_size",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Finished Size"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-27 12:52:48.060206",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Machine Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

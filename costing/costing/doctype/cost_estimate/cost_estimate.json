@@ -1,0 +1,740 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-28 15:25:39.066381",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cost_estimate_naming_series_details_section",
+  "buyer",
+  "final_ref_no",
+  "details_tab",
+  "unique_produt_form",
+  "section_break_mvkvb",
+  "yarn_dimensions_and_weight",
+  "tuft_margin_section",
+  "tuft_margin_width",
+  "tuft_margin_length",
+  "finished_sqmt",
+  "weight",
+  "column_break_gplr0",
+  "backing_face",
+  "no_in_width",
+  "pile_face",
+  "yarn_breakup_section",
+  "gsm_breakup_table",
+  "total_gsm",
+  "section_break_lpatx",
+  "yarn",
+  "material_and_stitching_tab",
+  "section_break_rkudm",
+  "material_cost_breakup",
+  "section_break_qnfrm",
+  "joint_wastage_material",
+  "column_break_wamj1",
+  "material_percent",
+  "column_break_xcqg7",
+  "total_material_amount",
+  "section_break_b1fok",
+  "column_break_7l0g8",
+  "fixed_stiching_cost_table",
+  "section_break_g5ndm",
+  "stiching_percent",
+  "column_break_4evtb",
+  "total_stiching_amount",
+  "packaging_and_processing_tab",
+  "section_break_ogn6n",
+  "packaging",
+  "section_break_jmw1b",
+  "joint_wastage",
+  "column_break_xgdml",
+  "packaging_percent",
+  "column_break_hgzdn",
+  "total_packaging_amount",
+  "section_break_kck55",
+  "processing_items_table",
+  "section_break_nkmmj",
+  "processing_percent",
+  "column_break_at66s",
+  "total_processing_amount",
+  "transport_tab",
+  "transport_section",
+  "fold_mat",
+  "width",
+  "length",
+  "height",
+  "column_break_osoee",
+  "no_of_piecescarton",
+  "cubic_metres_cbm",
+  "container",
+  "costcbm",
+  "net_amount",
+  "transport_percent",
+  "summary_tab",
+  "cost_summary_table",
+  "section_break_m5xoo",
+  "total_raw_materials_cut_sew_packaging_costs",
+  "column_break_c2qss",
+  "total_raw_materials_cut_sew_packagin_percent",
+  "section_break_wgkbb",
+  "others_summary_table",
+  "section_break_jinak",
+  "total_variable_amount",
+  "column_break_69eyw",
+  "total_variable_running_amunt",
+  "column_break_ohnox",
+  "total_variable_amount_",
+  "profit_and_interest_section",
+  "profit_and_interest_table",
+  "price_per_piece_in_inr_section",
+  "total_amount",
+  "column_break_p7vcp",
+  "total_percent",
+  "price_per_piece_in_usd_section",
+  "currency_",
+  "conversion_rate",
+  "column_break_pgdpb",
+  "total_amount_in_usd",
+  "manual_exchange_rate",
+  "control_summary_tab",
+  "size",
+  "column_break_fgcuw",
+  "gsm",
+  "column_break_polos",
+  "weight_",
+  "column_break_hldaw",
+  "per_sqmt",
+  "calculation_base_on_weight_section",
+  "calculation_base_on_per_piece",
+  "price_usd",
+  "price_inr",
+  "variable_cost",
+  "overheads",
+  "contribution",
+  "column_break_zlzha",
+  "calculation_base_on_per_sqmt",
+  "price_usd_sqmt",
+  "price_inr_sqmt",
+  "variable_cost_sqmt",
+  "overheads_sqmt",
+  "contribution_sqmt",
+  "section_break_b4bvl",
+  "contribution_",
+  "column_break_ukqvh",
+  "realisation_kg"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_mvkvb",
+   "fieldtype": "Section Break",
+   "label": "Yarn Dimensions And Weight"
+  },
+  {
+   "fieldname": "yarn_dimensions_and_weight",
+   "fieldtype": "Table",
+   "options": "Yarn Dimensions And Weight"
+  },
+  {
+   "fieldname": "tuft_margin_section",
+   "fieldtype": "Section Break",
+   "label": "Tuft Margin"
+  },
+  {
+   "default": "2.5",
+   "fieldname": "tuft_margin_width",
+   "fieldtype": "Float",
+   "label": "Tuft Margin - Width"
+  },
+  {
+   "default": "216",
+   "fieldname": "backing_face",
+   "fieldtype": "Link",
+   "label": "Backing Face",
+   "options": "Backing Face"
+  },
+  {
+   "fieldname": "no_in_width",
+   "fieldtype": "Int",
+   "label": "No in width",
+   "read_only": 1
+  },
+  {
+   "fieldname": "pile_face",
+   "fieldtype": "Float",
+   "label": "Pile: Face",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_gplr0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "2.5",
+   "fieldname": "tuft_margin_length",
+   "fieldtype": "Float",
+   "label": "Tuft Margin - Length"
+  },
+  {
+   "fieldname": "finished_sqmt",
+   "fieldtype": "Float",
+   "label": "Finished Sq/Mt",
+   "read_only": 1
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_rkudm",
+   "fieldtype": "Section Break",
+   "label": "Material Cost Breakup"
+  },
+  {
+   "fieldname": "material_cost_breakup",
+   "fieldtype": "Table",
+   "options": "Material Cost Breakup"
+  },
+  {
+   "fieldname": "section_break_b1fok",
+   "fieldtype": "Section Break",
+   "label": "Stitching"
+  },
+  {
+   "fieldname": "section_break_ogn6n",
+   "fieldtype": "Section Break",
+   "label": "Packaging"
+  },
+  {
+   "fieldname": "packaging",
+   "fieldtype": "Table",
+   "options": "Packaging"
+  },
+  {
+   "fieldname": "transport_section",
+   "fieldtype": "Section Break",
+   "label": "Transport"
+  },
+  {
+   "fieldname": "fold_mat",
+   "fieldtype": "Float",
+   "label": "Fold Mat",
+   "read_only": 1
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Float",
+   "label": "Width"
+  },
+  {
+   "fieldname": "length",
+   "fieldtype": "Float",
+   "label": "Length"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Float",
+   "label": "Height"
+  },
+  {
+   "fieldname": "column_break_osoee",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "no_of_piecescarton",
+   "fieldtype": "Float",
+   "label": "No. of pieces/carton"
+  },
+  {
+   "fieldname": "cubic_metres_cbm",
+   "fieldtype": "Float",
+   "label": "Cubic Metres (CBM)",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "container.amount",
+   "fieldname": "costcbm",
+   "fieldtype": "Currency",
+   "label": "Cost/CBM",
+   "read_only": 1
+  },
+  {
+   "fieldname": "container",
+   "fieldtype": "Link",
+   "label": "Container",
+   "options": "Container"
+  },
+  {
+   "fieldname": "section_break_kck55",
+   "fieldtype": "Section Break",
+   "label": "Processing"
+  },
+  {
+   "fieldname": "yarn_breakup_section",
+   "fieldtype": "Section Break",
+   "label": "Yarn Breakup"
+  },
+  {
+   "fieldname": "gsm_breakup_table",
+   "fieldtype": "Table",
+   "options": "Cost Estimate GSM Breakup Table"
+  },
+  {
+   "fieldname": "total_gsm",
+   "fieldtype": "Float",
+   "label": "Total GSM",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_lpatx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_7l0g8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fixed_stiching_cost_table",
+   "fieldtype": "Table",
+   "label": "Stiching",
+   "options": "Fixed Stiching Cost Table"
+  },
+  {
+   "fieldname": "net_amount",
+   "fieldtype": "Currency",
+   "label": "Net Amount",
+   "read_only": 1
+  },
+  {
+   "default": "2",
+   "fieldname": "joint_wastage",
+   "fieldtype": "Float",
+   "label": "Joint Wastage"
+  },
+  {
+   "fieldname": "unique_produt_form",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Unique Produt form"
+  },
+  {
+   "fieldname": "yarn",
+   "fieldtype": "Table",
+   "label": "Yarn",
+   "options": "Yarn"
+  },
+  {
+   "fieldname": "processing_items_table",
+   "fieldtype": "Table",
+   "options": "Processing Items Table"
+  },
+  {
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "summary_tab",
+   "fieldtype": "Tab Break",
+   "label": "Summary"
+  },
+  {
+   "fieldname": "section_break_qnfrm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "material_percent",
+   "fieldtype": "Percent",
+   "label": "Material Percent"
+  },
+  {
+   "fieldname": "column_break_xcqg7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_material_amount",
+   "fieldtype": "Currency",
+   "label": "Total Material Amount"
+  },
+  {
+   "fieldname": "section_break_g5ndm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "stiching_percent",
+   "fieldtype": "Percent",
+   "label": "Stiching Percent"
+  },
+  {
+   "fieldname": "column_break_4evtb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_stiching_amount",
+   "fieldtype": "Currency",
+   "label": "Total Stiching Amount"
+  },
+  {
+   "fieldname": "section_break_jmw1b",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "packaging_percent",
+   "fieldtype": "Percent",
+   "label": "Packaging Percent"
+  },
+  {
+   "fieldname": "column_break_hgzdn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_packaging_amount",
+   "fieldtype": "Currency",
+   "label": "Total Packaging Amount"
+  },
+  {
+   "fieldname": "section_break_nkmmj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "processing_percent",
+   "fieldtype": "Percent",
+   "label": "Processing Percent"
+  },
+  {
+   "fieldname": "column_break_at66s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_processing_amount",
+   "fieldtype": "Currency",
+   "label": "Total Processing Amount"
+  },
+  {
+   "fieldname": "column_break_xgdml",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "transport_percent",
+   "fieldtype": "Percent",
+   "label": "Transport Percent"
+  },
+  {
+   "fieldname": "cost_summary_table",
+   "fieldtype": "Table",
+   "label": "Cost Summary Table",
+   "options": "Cost Summary Table"
+  },
+  {
+   "fieldname": "total_raw_materials_cut_sew_packaging_costs",
+   "fieldtype": "Currency",
+   "label": "Total Raw Materials + Cut Sew Packaging Costs"
+  },
+  {
+   "fieldname": "total_raw_materials_cut_sew_packagin_percent",
+   "fieldtype": "Percent",
+   "label": "Total Raw Materials + Cut Sew Packagin Percent"
+  },
+  {
+   "fieldname": "section_break_wgkbb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "others_summary_table",
+   "fieldtype": "Table",
+   "label": "Others Summary Table",
+   "options": "Others Summary Table"
+  },
+  {
+   "fieldname": "section_break_jinak",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_variable_amount",
+   "fieldtype": "Currency",
+   "label": "Total Variable Amount"
+  },
+  {
+   "fieldname": "column_break_69eyw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_variable_running_amunt",
+   "fieldtype": "Currency",
+   "label": "Total Variable Running Amunt"
+  },
+  {
+   "fieldname": "column_break_ohnox",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_variable_amount_",
+   "fieldtype": "Currency",
+   "label": "Total Variable Amount %"
+  },
+  {
+   "fieldname": "section_break_m5xoo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_c2qss",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "profit_and_interest_section",
+   "fieldtype": "Section Break",
+   "label": "Profit and Interest"
+  },
+  {
+   "fieldname": "profit_and_interest_table",
+   "fieldtype": "Table",
+   "label": "Profit and Interest Table",
+   "options": "Profit and Interest Table"
+  },
+  {
+   "fieldname": "price_per_piece_in_inr_section",
+   "fieldtype": "Section Break",
+   "label": "Price per Piece in INR"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount"
+  },
+  {
+   "fieldname": "column_break_p7vcp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_percent",
+   "fieldtype": "Percent",
+   "label": "Total Percent"
+  },
+  {
+   "fieldname": "price_per_piece_in_usd_section",
+   "fieldtype": "Section Break",
+   "label": "Price per Piece in USD"
+  },
+  {
+   "fieldname": "total_amount_in_usd",
+   "fieldtype": "Float",
+   "label": "Total Amount In USD"
+  },
+  {
+   "fieldname": "column_break_pgdpb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "3",
+   "fieldname": "joint_wastage_material",
+   "fieldtype": "Percent",
+   "label": "Joint Wastage"
+  },
+  {
+   "fieldname": "column_break_wamj1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "material_and_stitching_tab",
+   "fieldtype": "Tab Break",
+   "label": "Material And Stitching"
+  },
+  {
+   "fieldname": "packaging_and_processing_tab",
+   "fieldtype": "Tab Break",
+   "label": "Packaging And Processing"
+  },
+  {
+   "fieldname": "transport_tab",
+   "fieldtype": "Tab Break",
+   "label": "Transport"
+  },
+  {
+   "fieldname": "control_summary_tab",
+   "fieldtype": "Tab Break",
+   "label": "Control Summary"
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Data",
+   "label": "Size"
+  },
+  {
+   "fieldname": "per_sqmt",
+   "fieldtype": "Float",
+   "label": "Per SqMT"
+  },
+  {
+   "fieldname": "column_break_polos",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gsm",
+   "fieldtype": "Float",
+   "label": "GSM"
+  },
+  {
+   "fieldname": "weight_",
+   "fieldtype": "Float",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "price_usd",
+   "fieldtype": "Float",
+   "label": "Price (USD)"
+  },
+  {
+   "fieldname": "variable_cost",
+   "fieldtype": "Float",
+   "label": "Variable Cost"
+  },
+  {
+   "fieldname": "price_inr",
+   "fieldtype": "Float",
+   "label": "Price (INR)"
+  },
+  {
+   "fieldname": "overheads",
+   "fieldtype": "Float",
+   "label": "Overheads"
+  },
+  {
+   "fieldname": "contribution",
+   "fieldtype": "Float",
+   "label": "Contribution"
+  },
+  {
+   "fieldname": "contribution_",
+   "fieldtype": "Percent",
+   "label": "Contribution %"
+  },
+  {
+   "fieldname": "realisation_kg",
+   "fieldtype": "Float",
+   "label": "Realisation/ kg"
+  },
+  {
+   "fieldname": "calculation_base_on_weight_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_zlzha",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "price_usd_sqmt",
+   "fieldtype": "Float",
+   "label": "Price (USD)"
+  },
+  {
+   "fieldname": "price_inr_sqmt",
+   "fieldtype": "Float",
+   "label": "Price (INR)"
+  },
+  {
+   "fieldname": "variable_cost_sqmt",
+   "fieldtype": "Float",
+   "label": "Variable Cost"
+  },
+  {
+   "fieldname": "overheads_sqmt",
+   "fieldtype": "Float",
+   "label": "Overheads"
+  },
+  {
+   "fieldname": "contribution_sqmt",
+   "fieldtype": "Float",
+   "label": "Contribution"
+  },
+  {
+   "fieldname": "section_break_b4bvl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ukqvh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "currency_.exchange_rate",
+   "fieldname": "conversion_rate",
+   "fieldtype": "Float",
+   "label": "Exchange Rate"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Link",
+   "label": "Buyer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "final_ref_no",
+   "fieldtype": "Data",
+   "label": "Final Ref No"
+  },
+  {
+   "fieldname": "cost_estimate_naming_series_details_section",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Cost Estimate Naming Series Details"
+  },
+  {
+   "fieldname": "calculation_base_on_per_sqmt",
+   "fieldtype": "Heading",
+   "label": "Calculation Base on Per SqMT"
+  },
+  {
+   "fieldname": "calculation_base_on_per_piece",
+   "fieldtype": "Heading",
+   "label": "Calculation Base on Per Piece"
+  },
+  {
+   "fieldname": "column_break_fgcuw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hldaw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "USD",
+   "fieldname": "currency_",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "manual_exchange_rate",
+   "fieldtype": "Float",
+   "label": "Manual Exchange Rate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-23 11:24:38.798467",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Cost Estimate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

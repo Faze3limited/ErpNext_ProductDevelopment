@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-04 15:15:15.220542",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "summary_label",
+  "input_value",
+  "amount",
+  "running_totals",
+  "_of_total_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "summary_label",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Label",
+   "options": "Profit and Interest"
+  },
+  {
+   "fieldname": "input_value",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Percent"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "running_totals",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Running Totals"
+  },
+  {
+   "fieldname": "_of_total_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "% of Total Cost"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-23 11:03:32.799025",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Profit and Interest Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

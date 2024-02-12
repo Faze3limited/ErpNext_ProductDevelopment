@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-23 17:12:08.191802",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "size",
+  "cost_sheet_no",
+  "container",
+  "width",
+  "length",
+  "height",
+  "no_of_pieces"
+ ],
+ "fields": [
+  {
+   "fieldname": "size",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Size"
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Width"
+  },
+  {
+   "fieldname": "length",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Length"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Height"
+  },
+  {
+   "fieldname": "no_of_pieces",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "No. of Pieces"
+  },
+  {
+   "fieldname": "cost_sheet_no",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Cost Sheet No"
+  },
+  {
+   "fieldname": "container",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Container",
+   "options": "Container"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-04-11 22:57:54.123619",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Carton Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

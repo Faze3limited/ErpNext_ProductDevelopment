@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-27 13:06:52.754841",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product_name",
+  "packing_components",
+  "description_if_any",
+  "no_of_pieces",
+  "rate",
+  "amount"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "packing_components",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Packing Components",
+   "options": "Item"
+  },
+  {
+   "columns": 2,
+   "fieldname": "description_if_any",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description, if any"
+  },
+  {
+   "columns": 2,
+   "fieldname": "no_of_pieces",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "No of Pieces"
+  },
+  {
+   "columns": 1,
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rate"
+  },
+  {
+   "columns": 1,
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount"
+  },
+  {
+   "columns": 2,
+   "fieldname": "product_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Product Name",
+   "options": "Item",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-03 15:13:16.289935",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Packaging Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

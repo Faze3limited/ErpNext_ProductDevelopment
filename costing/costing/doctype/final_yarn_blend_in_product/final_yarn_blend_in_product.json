@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-30 12:26:05.141407",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "yarn",
+  "blend_"
+ ],
+ "fields": [
+  {
+   "fieldname": "yarn",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Yarn",
+   "options": "Yarn Type"
+  },
+  {
+   "fieldname": "blend_",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Blend %"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-30 13:39:16.678298",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Final Yarn Blend in Product",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,307 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-27 13:37:17.465204",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "header_section",
+  "buyer",
+  "item_category",
+  "design_type",
+  "sampling_ref_no",
+  "recycled",
+  "column_break_ab27o",
+  "posting_date",
+  "construction",
+  "yarn_type",
+  "final_ref_no",
+  "attach_image",
+  "column_break_kpfjb",
+  "factory",
+  "article_no",
+  "supplier_lot_number",
+  "base_yarn_specification",
+  "tpitpm_direction",
+  "section_break_qyefd",
+  "yarn",
+  "stitch",
+  "size_breakup_section",
+  "size_breakup_table",
+  "gsm_breakup_section",
+  "for_all_size",
+  "size_no",
+  "section_break_kaqas",
+  "gsm_breakup_table",
+  "get_size_and_gsm_for_cost_sheet",
+  "section_break_uemzf",
+  "cost_sheet_for_size",
+  "gsm_breakup_summary",
+  "section_break_ovj7y",
+  "fold",
+  "column_break_ddvj8",
+  "processing",
+  "packing_components_section",
+  "packing_components_template",
+  "packing_components_table",
+  "total_amount",
+  "carton_dimensions_section",
+  "carton_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "factory",
+   "fieldtype": "Link",
+   "label": "Factory",
+   "options": "Branch"
+  },
+  {
+   "fieldname": "item_category",
+   "fieldtype": "Link",
+   "label": "Item Category",
+   "options": "Item Group"
+  },
+  {
+   "fieldname": "yarn_type",
+   "fieldtype": "Link",
+   "label": "Yarn Type",
+   "options": "Yarn Type"
+  },
+  {
+   "fieldname": "recycled",
+   "fieldtype": "Select",
+   "label": "Recycled",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "construction",
+   "fieldtype": "Link",
+   "label": "Construction",
+   "options": "Construction"
+  },
+  {
+   "fieldname": "design_type",
+   "fieldtype": "Link",
+   "label": "Design Type",
+   "options": "Design Type"
+  },
+  {
+   "fieldname": "sampling_ref_no",
+   "fieldtype": "Data",
+   "label": "Sampling Ref No"
+  },
+  {
+   "fieldname": "final_ref_no",
+   "fieldtype": "Data",
+   "label": "Final Ref No"
+  },
+  {
+   "fieldname": "header_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "size_breakup_section",
+   "fieldtype": "Section Break",
+   "label": "Size Breakup"
+  },
+  {
+   "fieldname": "size_breakup_table",
+   "fieldtype": "Table",
+   "label": "Size Breakup Table",
+   "options": "Size Breakup Table"
+  },
+  {
+   "fieldname": "fold",
+   "fieldtype": "Int",
+   "label": "Fold (No. of times)"
+  },
+  {
+   "fieldname": "processing",
+   "fieldtype": "Table",
+   "label": "Processing",
+   "options": "Processing Table"
+  },
+  {
+   "fieldname": "section_break_ovj7y",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ddvj8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gsm_breakup_section",
+   "fieldtype": "Section Break",
+   "label": "GSM Breakup "
+  },
+  {
+   "fieldname": "gsm_breakup_table",
+   "fieldtype": "Table",
+   "label": "GSM Breakup Table",
+   "options": "GSM Breakup Table"
+  },
+  {
+   "fieldname": "packing_components_section",
+   "fieldtype": "Section Break",
+   "label": "Packing Components"
+  },
+  {
+   "fieldname": "packing_components_table",
+   "fieldtype": "Table",
+   "label": "Packing Components Table",
+   "options": "Packing Components Table"
+  },
+  {
+   "fieldname": "packing_components_template",
+   "fieldtype": "Link",
+   "label": "Packing Components Template",
+   "options": "Packing Components"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Link",
+   "label": "Buyer/Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_qyefd",
+   "fieldtype": "Section Break",
+   "label": "Yarn & Stitch"
+  },
+  {
+   "columns": 8,
+   "fieldname": "yarn",
+   "fieldtype": "Table",
+   "options": "Yarn",
+   "width": "70"
+  },
+  {
+   "columns": 3,
+   "fieldname": "stitch",
+   "fieldtype": "Table",
+   "label": "Stitch",
+   "options": "Stitch",
+   "width": "30"
+  },
+  {
+   "fieldname": "column_break_ab27o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_kpfjb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_uemzf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cost_sheet_for_size",
+   "fieldtype": "Table",
+   "label": "Cost Sheet Summary",
+   "options": "Cost Sheet for Size"
+  },
+  {
+   "fieldname": "carton_dimensions_section",
+   "fieldtype": "Section Break",
+   "label": "Carton Dimensions"
+  },
+  {
+   "fieldname": "carton_table",
+   "fieldtype": "Table",
+   "label": "Carton Table",
+   "options": "Carton Table"
+  },
+  {
+   "default": "0",
+   "fieldname": "get_size_and_gsm_for_cost_sheet",
+   "fieldtype": "Button",
+   "label": "Add SIze and GSM For Cost Sheet"
+  },
+  {
+   "fieldname": "gsm_breakup_summary",
+   "fieldtype": "Table",
+   "hidden": 1,
+   "label": "GSM Breakup Summary",
+   "options": "GSM Breakup Summary"
+  },
+  {
+   "default": "0",
+   "fieldname": "for_all_size",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "For All Size"
+  },
+  {
+   "fieldname": "size_no",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Size No"
+  },
+  {
+   "fieldname": "section_break_kaqas",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "Attach Image"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount"
+  },
+  {
+   "fieldname": "tpitpm_direction",
+   "fieldtype": "Data",
+   "label": "TPI/TPM & Direction"
+  },
+  {
+   "fieldname": "article_no",
+   "fieldtype": "Data",
+   "label": "ARTICLE NO"
+  },
+  {
+   "fieldname": "supplier_lot_number",
+   "fieldtype": "Data",
+   "label": "Supplier & Lot Number"
+  },
+  {
+   "fieldname": "base_yarn_specification",
+   "fieldtype": "Data",
+   "label": "Base Yarn Specification"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-06 14:46:08.843549",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Unique Product Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

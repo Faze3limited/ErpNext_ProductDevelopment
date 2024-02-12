@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-28 13:13:32.441278",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product",
+  "fabric_used",
+  "width",
+  "length",
+  "cut_width",
+  "cut_length",
+  "total_pieces_gross",
+  "pcs_per_100_metres",
+  "fabric_cost",
+  "piece_cost"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "product",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Product",
+   "options": "Item"
+  },
+  {
+   "columns": 1,
+   "fieldname": "fabric_used",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Fabric Used"
+  },
+  {
+   "columns": 1,
+   "fieldname": "width",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Width"
+  },
+  {
+   "columns": 1,
+   "fieldname": "cut_width",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Cut Width"
+  },
+  {
+   "columns": 1,
+   "fieldname": "cut_length",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Cut Length"
+  },
+  {
+   "columns": 1,
+   "fieldname": "total_pieces_gross",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Pieces-Gross"
+  },
+  {
+   "columns": 1,
+   "fieldname": "pcs_per_100_metres",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Pcs per 100 metres"
+  },
+  {
+   "columns": 1,
+   "fieldname": "fabric_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fabric Cost"
+  },
+  {
+   "columns": 1,
+   "fieldname": "piece_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Piece Cost"
+  },
+  {
+   "columns": 1,
+   "fieldname": "length",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Length"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-28 20:25:48.620857",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Fabric Consumption",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

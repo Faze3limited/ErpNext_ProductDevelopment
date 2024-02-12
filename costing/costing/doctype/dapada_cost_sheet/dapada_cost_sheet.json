@@ -1,0 +1,600 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-19 14:26:43.587454",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "details_tab",
+  "customer",
+  "product_category",
+  "other_specification",
+  "column_break_xkyza",
+  "posting_date",
+  "product_name",
+  "attach_image",
+  "column_break_cookr",
+  "design_no",
+  "sampling_reference_no",
+  "nameversion",
+  "warp_details_tab",
+  "warp",
+  "weft",
+  "fabric_details_tab",
+  "fabric",
+  "section_break_sez6r",
+  "machine",
+  "machine_size",
+  "column_break_rthiw",
+  "dyeing_waste_",
+  "loom",
+  "process_details_tab",
+  "process",
+  "fabric_cost_working_tab",
+  "machine_type",
+  "column_break_npewj",
+  "loom_used",
+  "column_break_5hwwo",
+  "machine_size_",
+  "section_break_r3vby",
+  "machine_details",
+  "machine_detail",
+  "yarn_details_for_warps_section",
+  "yarn_details_for_warp",
+  "yarn_details_for_weft",
+  "section_break_kfn2f",
+  "total_warp",
+  "column_break_i2r2e",
+  "total_weft",
+  "section_break_jvnnk",
+  "warp_weight",
+  "weft_weight",
+  "section_break_lzl7s",
+  "total_warp_weight",
+  "total_warp_weft_weight",
+  "dyeing_waste",
+  "column_break_ksvpm",
+  "total_weft_weight",
+  "fabric_gsm",
+  "section_break_klf1r",
+  "warp_yarn_cost",
+  "weft_yarn_cost",
+  "total_yarn_cost",
+  "weaving_and_processing_costs_section",
+  "weaving_costs",
+  "weaving_processing_costs",
+  "section_break_wg0m4",
+  "width_cost_per_linear_metre",
+  "section_break_sn6wa",
+  "final_yarn_blend_in_product",
+  "piece_costing_tab",
+  "fabric_costing_summary",
+  "section_break_2xr6f",
+  "backing_other_fabric_cost",
+  "section_break_gttnq",
+  "peice_cut_sizes",
+  "section_break_tsddl",
+  "get_peice_for_fabric",
+  "fabric_consumption",
+  "total_product_cost",
+  "packaging_details_tab",
+  "packaging1",
+  "packaging1_amt",
+  "packaging2",
+  "packaging2_amt",
+  "packaging3",
+  "packaging3_amt",
+  "packaging4",
+  "packaging4_amt",
+  "transport_tab",
+  "transport_details_table",
+  "final_summary_tab",
+  "final_summary",
+  "cost_in_inr",
+  "section_break_4g5lw",
+  "currency_summary",
+  "section_break_phfix",
+  "control_summary"
+ ],
+ "fields": [
+  {
+   "fieldname": "warp_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "WARP & WEFT Details"
+  },
+  {
+   "fieldname": "warp",
+   "fieldtype": "Table",
+   "label": "WARP",
+   "options": "Warp Items"
+  },
+  {
+   "fieldname": "weft",
+   "fieldtype": "Table",
+   "label": "WEFT",
+   "options": "Warp Items"
+  },
+  {
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "design_no",
+   "fieldtype": "Data",
+   "label": "Design No."
+  },
+  {
+   "fieldname": "column_break_xkyza",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "product_category",
+   "fieldtype": "Link",
+   "label": "Product Category",
+   "options": "Item Group"
+  },
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "label": "Product Name"
+  },
+  {
+   "fieldname": "sampling_reference_no",
+   "fieldtype": "Data",
+   "label": "Sampling Reference No."
+  },
+  {
+   "fieldname": "other_specification",
+   "fieldtype": "Data",
+   "label": "Other Specification"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "Attach Image"
+  },
+  {
+   "fieldname": "column_break_cookr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fabric_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Fabric Details"
+  },
+  {
+   "fieldname": "fabric",
+   "fieldtype": "Table",
+   "label": "Fabric",
+   "options": "Fabric Details"
+  },
+  {
+   "fieldname": "machine",
+   "fieldtype": "Link",
+   "label": "Machine",
+   "options": "Machine"
+  },
+  {
+   "fieldname": "machine_size",
+   "fieldtype": "Data",
+   "label": "Machine Size"
+  },
+  {
+   "fieldname": "loom",
+   "fieldtype": "Link",
+   "label": "Loom",
+   "options": "Loom"
+  },
+  {
+   "fieldname": "process_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Process Details"
+  },
+  {
+   "fieldname": "process",
+   "fieldtype": "Table",
+   "label": "Process",
+   "options": "Process Details"
+  },
+  {
+   "fieldname": "peice_cut_sizes",
+   "fieldtype": "Table",
+   "label": "Peice Cut Sizes",
+   "options": "Peice Cut Sizes"
+  },
+  {
+   "fieldname": "packaging_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Packaging Details"
+  },
+  {
+   "fieldname": "fabric_cost_working_tab",
+   "fieldtype": "Tab Break",
+   "label": "Fabric Cost - Working"
+  },
+  {
+   "fieldname": "machine_details",
+   "fieldtype": "Table",
+   "label": "Machine Details",
+   "options": "Machine Details"
+  },
+  {
+   "fieldname": "machine_type",
+   "fieldtype": "Link",
+   "label": "Machine Type",
+   "options": "Machine"
+  },
+  {
+   "fieldname": "loom_used",
+   "fieldtype": "Link",
+   "label": "Loom Used",
+   "options": "Loom"
+  },
+  {
+   "fieldname": "yarn_details_for_warp",
+   "fieldtype": "Table",
+   "label": "Yarn Details for WARP",
+   "options": "Yarn Details for WARP",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_warp",
+   "fieldtype": "Float",
+   "label": "Total WARP %"
+  },
+  {
+   "fieldname": "yarn_details_for_warps_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_i2r2e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "yarn_details_for_weft",
+   "fieldtype": "Table",
+   "label": "Yarn Details for WEFT",
+   "options": "Yarn Details for WEFT",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_weft",
+   "fieldtype": "Float",
+   "label": "Total WEFT %"
+  },
+  {
+   "fieldname": "section_break_jvnnk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "warp_weight",
+   "fieldtype": "Table",
+   "label": "WARP Weight - (Ends)",
+   "options": "WARP Weight"
+  },
+  {
+   "fieldname": "column_break_ksvpm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "weft_weight",
+   "fieldtype": "Table",
+   "label": "WEFT Weight - (Picks)",
+   "options": "WEFT Weight"
+  },
+  {
+   "fieldname": "total_warp_weight",
+   "fieldtype": "Float",
+   "label": "Total WARP Weight",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_weft_weight",
+   "fieldtype": "Float",
+   "label": "Total WEFT Weight",
+   "read_only": 1
+  },
+  {
+   "fieldname": "dyeing_waste",
+   "fieldtype": "Percent",
+   "label": "Dyeing Waste"
+  },
+  {
+   "fieldname": "fabric_gsm",
+   "fieldtype": "Float",
+   "label": "FABRIC GSM",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_warp_weft_weight",
+   "fieldtype": "Float",
+   "label": "Total WARP + WEFT Weight",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_klf1r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "warp_yarn_cost",
+   "fieldtype": "Table",
+   "label": "WARP Yarn Cost",
+   "options": "WARP Yarn Cost"
+  },
+  {
+   "fieldname": "total_yarn_cost",
+   "fieldtype": "Float",
+   "label": "TOTAL YARN COST",
+   "read_only": 1
+  },
+  {
+   "fieldname": "weft_yarn_cost",
+   "fieldtype": "Table",
+   "label": "WEFT Yarn Cost",
+   "options": "WEFT Yarn Cost"
+  },
+  {
+   "fieldname": "section_break_sez6r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_rthiw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dyeing_waste_",
+   "fieldtype": "Percent",
+   "label": "Dyeing Waste %"
+  },
+  {
+   "fieldname": "machine_detail",
+   "fieldtype": "Table",
+   "options": "Machine Detail",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_kfn2f",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_lzl7s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "weaving_and_processing_costs_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "weaving_processing_costs",
+   "fieldtype": "Table",
+   "label": "Processing Costs",
+   "options": "Weaving and Processing Costs"
+  },
+  {
+   "fieldname": "column_break_5hwwo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "machine_size_",
+   "fieldtype": "Float",
+   "label": "Machine Size"
+  },
+  {
+   "fieldname": "section_break_r3vby",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "weaving_costs",
+   "fieldtype": "Table",
+   "label": "Weaving Costs",
+   "options": "Weaving Costs"
+  },
+  {
+   "fieldname": "column_break_npewj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_wg0m4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "piece_costing_tab",
+   "fieldtype": "Tab Break",
+   "label": "Piece Costing"
+  },
+  {
+   "fieldname": "fabric_costing_summary",
+   "fieldtype": "Table",
+   "label": "Fabric Costing Summary",
+   "options": "Fabric Costing Summary"
+  },
+  {
+   "fieldname": "backing_other_fabric_cost",
+   "fieldtype": "Table",
+   "label": "Backing/Other Fabric Cost",
+   "options": "Backing Other Fabric Cost"
+  },
+  {
+   "fieldname": "section_break_2xr6f",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_gttnq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_tsddl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fabric_consumption",
+   "fieldtype": "Table",
+   "label": "Fabric Consumption",
+   "options": "Fabric Consumption"
+  },
+  {
+   "fieldname": "get_peice_for_fabric",
+   "fieldtype": "Button",
+   "label": "Get Peice for Fabric"
+  },
+  {
+   "fieldname": "total_product_cost",
+   "fieldtype": "Table",
+   "label": "Total Product Cost",
+   "options": "Product Cost"
+  },
+  {
+   "fieldname": "width_cost_per_linear_metre",
+   "fieldtype": "Table",
+   "label": "Width Cost per Linear Metre",
+   "options": "Width Cost per Linear Metre"
+  },
+  {
+   "fieldname": "section_break_sn6wa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "final_yarn_blend_in_product",
+   "fieldtype": "Table",
+   "label": "Final Yarn Blend in Product",
+   "options": "Final Yarn Blend in Product"
+  },
+  {
+   "fieldname": "packaging1",
+   "fieldtype": "Table",
+   "label": "Packaging",
+   "options": "Packaging Details"
+  },
+  {
+   "fieldname": "packaging2",
+   "fieldtype": "Table",
+   "label": "Packaging",
+   "options": "Packaging Details"
+  },
+  {
+   "fieldname": "packaging3",
+   "fieldtype": "Table",
+   "label": "Packaging",
+   "options": "Packaging Details"
+  },
+  {
+   "fieldname": "packaging4",
+   "fieldtype": "Table",
+   "label": "Packaging",
+   "options": "Packaging Details"
+  },
+  {
+   "fieldname": "final_summary_tab",
+   "fieldtype": "Tab Break",
+   "label": "Final Summary"
+  },
+  {
+   "fieldname": "packaging1_amt",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Packaging1 Amt"
+  },
+  {
+   "fieldname": "packaging2_amt",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Packaging2 Amt"
+  },
+  {
+   "fieldname": "packaging3_amt",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Packaging3 Amt"
+  },
+  {
+   "fieldname": "packaging4_amt",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Packaging4 Amt"
+  },
+  {
+   "fieldname": "final_summary",
+   "fieldtype": "Table",
+   "label": "Final Summary",
+   "options": "Final Summary Cost"
+  },
+  {
+   "fieldname": "section_break_4g5lw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "currency_summary",
+   "fieldtype": "Table",
+   "label": "Exchange Summary",
+   "options": "Currency Summary"
+  },
+  {
+   "fieldname": "cost_in_inr",
+   "fieldtype": "Table",
+   "options": "Cost In INR"
+  },
+  {
+   "fieldname": "control_summary",
+   "fieldtype": "Table",
+   "label": "Control Summary",
+   "options": "Control Summary"
+  },
+  {
+   "fieldname": "nameversion",
+   "fieldtype": "Data",
+   "label": "Name/Version"
+  },
+  {
+   "fieldname": "transport_tab",
+   "fieldtype": "Tab Break",
+   "label": "Transport"
+  },
+  {
+   "fieldname": "transport_details_table",
+   "fieldtype": "Table",
+   "label": "Transport Details",
+   "options": "Transport Details Table"
+  },
+  {
+   "fieldname": "section_break_phfix",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-14 18:39:48.916553",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Dapada Cost Sheet",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

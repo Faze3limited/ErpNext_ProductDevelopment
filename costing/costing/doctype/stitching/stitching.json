@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-28 15:09:28.155058",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "stitching",
+  "yesno",
+  "qty",
+  "rate",
+  "amount"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "stitching",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Stitching",
+   "options": "\nOverlocking\nOver-Edgeing\nTapeing\nBacking Thread\nLabour Charges"
+  },
+  {
+   "columns": 2,
+   "fieldname": "yesno",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Yes/No",
+   "options": "\nYes\nNo"
+  },
+  {
+   "columns": 2,
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Qty"
+  },
+  {
+   "columns": 2,
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rate"
+  },
+  {
+   "columns": 2,
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-28 15:09:28.155058",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Stitching",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

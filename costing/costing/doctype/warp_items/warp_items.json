@@ -1,0 +1,138 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-19 14:13:49.868100",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "material",
+  "input_yarn",
+  "yarn_count",
+  "yarn_count_input",
+  "filament",
+  "number_of_ply",
+  "percent_used",
+  "column_break_c3ss9",
+  "final_count",
+  "yarn_dyed",
+  "weaving_waste",
+  "grey_yarn_price",
+  "dyeing_cost",
+  "shade_no",
+  "batch_no",
+  "yarn_type",
+  "yarn_conversion_value"
+ ],
+ "fields": [
+  {
+   "columns": 4,
+   "fieldname": "material",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Material",
+   "options": "Item"
+  },
+  {
+   "columns": 3,
+   "fieldname": "input_yarn",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Input Yarn",
+   "options": "Yarn Type"
+  },
+  {
+   "fieldname": "yarn_count",
+   "fieldtype": "Link",
+   "label": "Yarn Count",
+   "options": "Yarn Count"
+  },
+  {
+   "fieldname": "yarn_count_input",
+   "fieldtype": "Float",
+   "label": "Yarn Count Input"
+  },
+  {
+   "fieldname": "filament",
+   "fieldtype": "Float",
+   "label": "Filament"
+  },
+  {
+   "fieldname": "number_of_ply",
+   "fieldtype": "Float",
+   "label": "Number of Ply (>=1)"
+  },
+  {
+   "columns": 3,
+   "fieldname": "percent_used",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Percent Used"
+  },
+  {
+   "fieldname": "final_count",
+   "fieldtype": "Float",
+   "label": "Final Count"
+  },
+  {
+   "fieldname": "yarn_dyed",
+   "fieldtype": "Select",
+   "label": "Yarn Dyed",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "weaving_waste",
+   "fieldtype": "Percent",
+   "label": "Weaving Waste %"
+  },
+  {
+   "fieldname": "grey_yarn_price",
+   "fieldtype": "Float",
+   "label": "Grey Yarn Price"
+  },
+  {
+   "fieldname": "dyeing_cost",
+   "fieldtype": "Float",
+   "label": "Dyeing Cost"
+  },
+  {
+   "fieldname": "shade_no",
+   "fieldtype": "Data",
+   "label": "Shade No"
+  },
+  {
+   "fieldname": "batch_no",
+   "fieldtype": "Data",
+   "label": "Batch No"
+  },
+  {
+   "fieldname": "column_break_c3ss9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "yarn_count.yarn_type",
+   "fieldname": "yarn_type",
+   "fieldtype": "Select",
+   "label": "Yarn Type",
+   "options": "\nDirect\nIndirect"
+  },
+  {
+   "fetch_from": "yarn_count.conversion_value",
+   "fieldname": "yarn_conversion_value",
+   "fieldtype": "Float",
+   "label": "Yarn Conversion Value"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-14 00:05:55.328770",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Warp Items",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

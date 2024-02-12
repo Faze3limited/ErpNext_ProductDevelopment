@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-04 15:04:54.171092",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "summary_label",
+  "input_value",
+  "amount",
+  "running_totals",
+  "_of_total_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "summary_label",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Summary Label"
+  },
+  {
+   "fieldname": "input_value",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Input Value"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "running_totals",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Running Totals"
+  },
+  {
+   "fieldname": "_of_total_cost",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "% of Total Cost"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-19 12:22:37.359487",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Others Summary Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

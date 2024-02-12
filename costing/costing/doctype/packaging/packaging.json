@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-28 15:03:48.121139",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "packing_components",
+  "qty",
+  "rate",
+  "amount",
+  "manual_addition",
+  "final_amount"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "packing_components",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Packing Components",
+   "options": "Item"
+  },
+  {
+   "columns": 2,
+   "fieldname": "manual_addition",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Manual Addition"
+  },
+  {
+   "columns": 2,
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Qty"
+  },
+  {
+   "columns": 1,
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rate"
+  },
+  {
+   "fieldname": "final_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Final Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-19 16:09:59.282085",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Packaging",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

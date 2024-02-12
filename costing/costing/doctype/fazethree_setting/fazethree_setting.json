@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-15 20:16:34.089210",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "exchange_rate",
+  "section_break_xaurk",
+  "sampling",
+  "overheads",
+  "rejection",
+  "column_break_jtk7k",
+  "interest",
+  "profit",
+  "da_store_return_commission"
+ ],
+ "fields": [
+  {
+   "fieldname": "exchange_rate",
+   "fieldtype": "Float",
+   "label": "Cost Exchange Rate(Minus)"
+  },
+  {
+   "fieldname": "section_break_xaurk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sampling",
+   "fieldtype": "Percent",
+   "label": "Sampling %"
+  },
+  {
+   "fieldname": "overheads",
+   "fieldtype": "Percent",
+   "label": "Overheads %"
+  },
+  {
+   "fieldname": "column_break_jtk7k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "interest",
+   "fieldtype": "Percent",
+   "label": "Interest %"
+  },
+  {
+   "fieldname": "profit",
+   "fieldtype": "Percent",
+   "label": "Profit %"
+  },
+  {
+   "fieldname": "rejection",
+   "fieldtype": "Percent",
+   "label": "Rejection %"
+  },
+  {
+   "fieldname": "da_store_return_commission",
+   "fieldtype": "Percent",
+   "label": "DA+Store Return+Commission %"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-09-22 10:47:05.751633",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Fazethree Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

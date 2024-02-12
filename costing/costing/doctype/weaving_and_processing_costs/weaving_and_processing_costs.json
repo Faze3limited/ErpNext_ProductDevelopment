@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-15 00:24:36.653727",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "particulars",
+  "uom",
+  "rate_per_process",
+  "cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "particulars",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Particulars",
+   "options": "Process Head Type"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "rate_per_process",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Rate per Process"
+  },
+  {
+   "fieldname": "cost",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Cost"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-26 15:08:10.001042",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Weaving and Processing Costs",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

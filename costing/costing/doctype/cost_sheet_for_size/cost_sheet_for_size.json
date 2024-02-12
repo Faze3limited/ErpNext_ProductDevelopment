@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-23 16:59:18.037820",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "size",
+  "gsm",
+  "cost_sheet_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "size",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Size"
+  },
+  {
+   "fieldname": "gsm",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "GSM"
+  },
+  {
+   "fieldname": "cost_sheet_no",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Cost Sheet No."
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-04-10 13:47:26.062691",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Cost Sheet for Size",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

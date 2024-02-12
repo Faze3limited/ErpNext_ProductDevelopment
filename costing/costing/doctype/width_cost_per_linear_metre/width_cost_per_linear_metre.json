@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-30 11:09:00.242789",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "width",
+  "gsm",
+  "processing_wastage",
+  "cost_per_lm"
+ ],
+ "fields": [
+  {
+   "fieldname": "width",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Width"
+  },
+  {
+   "fieldname": "gsm",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "GSM"
+  },
+  {
+   "fieldname": "cost_per_lm",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Cost per LM"
+  },
+  {
+   "default": "2",
+   "fieldname": "processing_wastage",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Processing Wastage"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-02 13:53:09.007027",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Width Cost per Linear Metre",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

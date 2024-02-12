@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-27 12:42:58.602266",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product_name",
+  "front_back_filler",
+  "fabric",
+  "width",
+  "length",
+  "cut_width",
+  "cut_length",
+  "peices",
+  "packaging"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "product_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Product",
+   "options": "Item"
+  },
+  {
+   "columns": 1,
+   "fieldname": "width",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Width"
+  },
+  {
+   "columns": 1,
+   "fieldname": "length",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Length"
+  },
+  {
+   "columns": 1,
+   "fieldname": "cut_width",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Cut Width"
+  },
+  {
+   "columns": 1,
+   "fieldname": "cut_length",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Cut Length"
+  },
+  {
+   "columns": 1,
+   "fieldname": "packaging",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Packaging",
+   "options": "\nYes\nNo"
+  },
+  {
+   "columns": 1,
+   "fieldname": "front_back_filler",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "options": "\nFront\nBack\nFiller"
+  },
+  {
+   "columns": 1,
+   "fieldname": "fabric",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Fabric"
+  },
+  {
+   "columns": 1,
+   "fieldname": "peices",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Peices"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-31 14:59:14.293277",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Peice Cut Sizes",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

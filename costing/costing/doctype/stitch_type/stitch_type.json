@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:stitch_type",
+ "creation": "2023-03-23 15:18:10.096024",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "stitch_type",
+  "uom",
+  "rate",
+  "consumption_per_running_mtr"
+ ],
+ "fields": [
+  {
+   "fieldname": "stitch_type",
+   "fieldtype": "Data",
+   "label": "Stitch Type",
+   "unique": 1
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "label": "Rate"
+  },
+  {
+   "fieldname": "consumption_per_running_mtr",
+   "fieldtype": "Data",
+   "label": "Consumption Per Running Mtr"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "label": "UOM",
+   "options": "UOM"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-17 11:28:35.936465",
+ "modified_by": "Administrator",
+ "module": "Costing",
+ "name": "Stitch Type",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
